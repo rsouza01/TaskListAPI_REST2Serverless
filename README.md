@@ -12,3 +12,6 @@ http://www.luiztools.com.br/post/como-usar-nodejs-mysql/
 
 * Node + JWT
 http://rcdevlabs.github.io/2015/02/12/como-criar-uma-api-restfull-em-nodejs-e-autenticar-usando-json-web-token-jwt/
+
+* How to test API endpoints with cURL
+http://www.codingpedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/
