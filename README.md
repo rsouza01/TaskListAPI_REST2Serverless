@@ -23,9 +23,9 @@ https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgs
 
 * [How to test API endpoints with cURL](http://www.codingpedia.org/ama/how-to-test-a-rest-api-from-command-line-with-curl/)
 
-curl -I http://localhost:3000/api/tasks
+`curl -I http://localhost:3000/api/tasks`
 
-curl -H "Accept:application/json" http://localhost:3000/api/tasks
+`curl -H "Accept:application/json" http://localhost:3000/api/tasks`
 
 * [TDD in Node.js](http://www.luiztools.com.br/post/tdd-como-criar-unit-tests-em-node-js-com-tape/)
 
