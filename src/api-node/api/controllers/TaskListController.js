@@ -1,5 +1,7 @@
 'use strict';
 
+const mysql = require('mysql');
+
 function execSQLQuery(sqlQry, res){
 	const connection = mysql.createConnection({
 		host     : 'db4free.net',
@@ -25,14 +27,7 @@ function execSQLQuery(sqlQry, res){
 exports.list_all_tasks = function(req, res) {
     console.log('[FC] list_all_tasks');
 
-    res.json(
-    {
-        "id": 1,
-        "name": "Josie Greenfelder",
-        "email": "Raoul_Aufderhar@yahoo.com",
-        "status": "active",
-        "lorem": true
-    });
+    execSQLQuery('SELECT * FROM tb_usuario', res);
 
 };
 
